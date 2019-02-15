@@ -1,0 +1,149 @@
+.body {
+    background-color: grey;
+    margin: auto;
+}
+.h1{
+    color: aqua;
+}
+.zagolovok{
+    color: azure;
+}
+
+.photo {
+    width: 200px;
+    lenght: 500px;
+}
+
+.header {
+    display: flex;
+    background:#002230;
+    color: white;
+}
+
+.left-side {
+    display: flex;
+    width: 75%;
+}
+
+.right-side {
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.main-menu {
+    display: flex;
+    width: 85%;
+}
+
+.logo {
+    width: 15%;
+}
+
+.one-menu-items {
+    width: calc(100%/5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .3s ease;
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.download {
+    width: 60%;
+    text-align: center;
+    display: flex;
+    background: #cddc39;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.one-menu-items:hover {
+    background: rgba(255,255,255,0.1);
+}
+.download:hover {
+background: red;
+}
+
+.wizard-block {
+display: flex;
+justify-content: center;
+align-items: center;
+height: 80%;
+padding: 400px;
+background-image: url(https://www.wtfast.com/wp-content/uploads/2017/06/altHero-1920px.jpg);
+}
+
+.wizard-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.wizard-top-name {
+color: white;
+font-size: 75px;
+}
+
+.wizard-desc-first {
+    color: #009D89;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.wizard-desc-second {
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+}
+
+.wizard-right {
+    width: 50%;
+}
+
+.download-btn {
+    width: 130%;
+    text-align: center;
+    display: flex;
+    background: #cddc39;
+    justify-content: center;
+    padding: 35px;
+    border-radius: 70px;
+    font-weight: 900;
+    cursor: pointer;
+    font-size: 30px;
+}
+.download-btn:hover {
+    background: brown;
+    animation: running;
+}
+
+.sponsors {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background: white;
+}
+
+.sponsors-2 {
+    width: 60%;
+    background: white;
+    margin-left: 340px;
+    font-size: 32px;
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 30px;
+    /* background: #009D89; */
+    color: #009D89;
+    background-image: partner_logos_01.svg;
+}
